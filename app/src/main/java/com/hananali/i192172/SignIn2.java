@@ -17,7 +17,7 @@ public class SignIn2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in2);
 
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         signinbutton = (Button) findViewById(R.id.button);
         create_account = (Button) findViewById(R.id.etPasswordLayout);

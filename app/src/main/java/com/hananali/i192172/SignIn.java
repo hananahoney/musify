@@ -20,7 +20,7 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         signupbutton = (Button) findViewById(R.id.button);
         signinbutton = (Button) findViewById(R.id.button2);
@@ -49,8 +49,8 @@ public class SignIn extends AppCompatActivity {
                 }
                 else
                 {
-                    Intent intent =new Intent(SignIn.this, home.class);
-                    startActivity(intent);
+//                    Intent intent =new Intent(SignIn.this, home.class);
+//                    startActivity(intent);
                 }
             }
         });
