@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="236dp"
+        android:layout_height="259dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="414dp"
+        app:srcCompat="@drawable/logo1" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="367dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:hint="Email"
+            android:textColor="#B3FFC107"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#B3FFC107" />
+
+
+        <EditText
+            android:id="@+id/etPasswordLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@+id/editTextTextEmailAddress"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-330dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="46dp"
+            android:background="@color/white"
+            android:hint="Password"
+            android:textColorHint="#B3FFC107"
+
+            android:ems="10"
+            android:textColor="#B3FFC107"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            app:hintEnabled="true"
+
+            app:passwordToggleEnabled="true" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPasswordLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="230dp"
+            android:layout_height="104dp"
+            android:layout_above="@+id/editTextTextPersonName2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-150dp"
+            android:layout_marginTop="0dp"
+
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="650dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:backgroundTint="@color/black"
+            android:text="Sign Up"
+            android:onClick="shift_to_signup"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-140dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="76dp"
+        android:text="Forgot your password?"
+        android:textColor="#FFEB3B"
+        android:textSize="15dp" />
+
+</RelativeLayout>

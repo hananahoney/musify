@@ -10,22 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.I192172">
         <activity
+            android:name=".home"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn2"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true" />
+        <activity
             android:name=".splashScreen"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        
-
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:parentActivityName=".splashScreen" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"
+            android:parentActivityName=".SignUp" />
     </application>
 
 </manifest>
