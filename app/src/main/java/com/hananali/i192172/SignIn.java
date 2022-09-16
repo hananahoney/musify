@@ -49,8 +49,8 @@ public class SignIn extends AppCompatActivity {
                 }
                 else
                 {
-//                    Intent intent =new Intent(SignIn.this, home.class);
-//                    startActivity(intent);
+                    Intent intent =new Intent(SignIn.this, main_home.class);
+                    startActivity(intent);
                 }
             }
         });
