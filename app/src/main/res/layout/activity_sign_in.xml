@@ -78,10 +78,10 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="140dp"
-        android:backgroundTint="#FFEB3B"
+        android:background="@drawable/corners"
         android:text="Sign In"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="#D1D1D1"
         android:textSize="20dp" />
 
         <Button
@@ -107,17 +107,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="43dp"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="-140dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="-120dp"
         android:layout_marginEnd="49dp"
         android:layout_marginBottom="76dp"
         android:text="Forgot your password?"
+        android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="15dp" />
 

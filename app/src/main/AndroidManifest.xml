@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.I192172">
         <activity
+            android:name=".edit_profile"
+            android:exported="true" />
+        <activity
+            android:name=".profile_page"
+            android:exported="true" />
+        <activity
+            android:name=".listen_later_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".listen_later_music"
+            android:exported="true" />
+        <activity
+            android:name=".liked_music"
+            android:exported="true" />
+        <activity
+            android:name=".liked_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".serach_page"
+            android:exported="true" />
+        <activity
+            android:name=".record"
+            android:exported="true" />
+        <activity
+            android:name=".upload_music"
+            android:exported="true" />
+        <activity
+            android:name=".add_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".add_main"
+            android:exported="true" />
+        <activity
+            android:name=".song_title"
+            android:exported="true" />
+        <activity
             android:name=".main_home"
             android:exported="true" />
         <activity
